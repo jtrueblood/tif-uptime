@@ -9,10 +9,11 @@
   "author": "Think It First",
   "license": "ISC",
   "dependencies": {
+    "express": "4.13.4",
     "sqlite3": "~2.2.3"
-  	},
+  },
   "engines": {
-    "node": "4.1.1"
+    "node": "4.1.1",
+    "npm": "3.3.3"
   }
-  
 }
