@@ -10,7 +10,7 @@ setInterval(function(){
 	 if(err) console.log(err); /* log error */
 	console.log( phpResponse );
 	});
-}, 5000); // set timinterval of function 1000 = 1 second
+}, 3600000); // set timinterval of function 1000 = 1 second
 
 
 console.log("TIF Uptime is Running"); 
