@@ -33,7 +33,7 @@ foreach ($monitors as $monitor){
 	$siteids[$b] = $a;
 	if ($a == 9){
 		
-	$sql =<<<EOF
+$sql =<<<EOF
 	INSERT INTO SITESLOG (ROWID,SITEID,TIME)
 	VALUES (NULL, $b, time());
 EOF;

@@ -1,11 +1,4 @@
-require("node-php");
-require("cgi");
-require("php-cgi");
 
-var express = require('express');
-var php = require("php"); 
-var path = require("path"); 
-var app = express();
 var runner = require("child_process");
 
 
@@ -19,5 +12,5 @@ setInterval(function(){
 	});
 }, 5000); // set timinterval of function 1000 = 1 second
 
-app.listen(9090);
+
 console.log("TIF Uptime is Running"); 
